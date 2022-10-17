@@ -1,0 +1,111 @@
+.grid-container>.main {
+    grid-area: main;
+    text-align: center;
+
+
+    .articulos{
+        flex-wrap: wrap;
+        display: flex;
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: rgb(0, 0, 0);
+        grid-template-columns: repeat(3, ifr);
+        margin-top: 30px;
+    }
+    
+    .article{
+        flex: 1 1 20%;
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        letter-spacing: 2px;
+        padding: 40px;
+        gap: 20px;
+        grid-template-columns: repeat(3, ifr);
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .textoPrincipal {
+        padding: 25px;
+        font-size: 50px;
+        font-weight: bold;
+
+        
+
+            .fotos {
+                padding: 10px;
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+    .parrafo {
+        margin: 0 auto;
+        font-weight: lighter;
+        text-align: center;
+        padding: 30px;
+}
+.descripcion {
+    font-weight: 300;
+        margin: 0 auto;
+        text-align: center;
+        padding: 5 40px;
+        font-size: 22px;
+        
+      
+    }
+ 
+    .fotos2 {
+        padding: 3px;
+    }
+  
+
+        .titulos {
+            font-size: 40px;
+            @extend .titulos;
+
+            .tituloTres {
+                font-size: 30px;
+                @extend .tituloTres;
+
+                    .textoSecundario {
+                        @extend .textoSecundario;
+                        margin-top: 30px;
+
+                        .textoTerciario {
+                            @extend .textoTerciario;
+                        }
+                    }
+                }
+            }
+           
+
+.form-label,
+.form-control {
+    border-radius: 10px;
+    border-color: $bgcolor;
+ 
+
+
+
+
+    .btn-enviar,
+    .btn-resetear {
+        border-color: $bgcolor;
+        background-color: $bgcolor;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn-resetear:hover {
+        transition: 0.5s;
+        opacity: 0.5;
+    }
+
+    .btn-enviar:hover {
+        transition: 0.5s;
+        opacity: 0.5;
+    }
+}

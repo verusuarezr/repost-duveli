@@ -1,0 +1,35 @@
+$coloresPrincipales:(
+    colorBlack:black,
+    colorPrimario: #aaf0ff
+    
+);
+
+$estilos: (
+  font-family: 'Montserrat',
+  centro: center,
+  padding: 2px,
+  margin:20px,
+  textoFuente: 22px,
+  textoSecundario: 28px,
+  parrafo: 15px,
+  titulo: bolder
+);
+
+body{
+    font-family: map-get($map: $estilos, $key:font-family);
+    text-align: map-get($map:$estilos, $key: centro);
+}
+
+.fotos{
+    padding: map-get($map: $estilos, $key:padding);
+    margin-top: map-get($map: $estilos, $key: margin);
+};
+
+.reel{
+    padding: map-get($map: $estilos, $key:padding);
+    margin-top: map-get($map: $estilos, $key: margin);
+};
+
+.fondo3{
+    padding:map-get($map: $estilos, $key: padding );
+}

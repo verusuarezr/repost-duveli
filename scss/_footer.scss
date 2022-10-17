@@ -1,0 +1,31 @@
+.grid-container>.footer {
+    grid-area: footer;
+    display: flex;
+   flex-wrap: wrap;
+    align-items: center;
+   
+
+
+
+    .instagram {
+        @include redes ($bgcolor);
+
+    }
+
+    .facebook {
+        @include redes ($bgcolor);
+
+
+    }
+
+    .footerCopyright {
+        font-size: 16px;
+        justify-content: flex-end;
+
+    }
+
+}
+.fondo3 {
+ padding: 0 120px;
+
+}

@@ -1,0 +1,364 @@
+body {
+  font-family: 'Montserrat';
+  padding: 20px 20px 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.grid-container > .header {
+  grid-area: header;
+  font-family: 'Montserrat';
+  top: 0;
+  left: 0;
+  display: flex;
+  width: auto; }
+  .grid-container > .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    text-transform: uppercase;
+    width: max-content; }
+    .grid-container > .header .navbar .nav-menu {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      width: max-content; }
+
+li {
+  list-style: none;
+  text-decoration: none;
+  margin: 0 5px;
+  padding-top: 50px; }
+  li a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: 0.5s;
+    justify-content: space-between;
+    width: max-content; }
+    li a:hover {
+      background-color: #aaf0ff; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'header  header   header    header'
+ 'main    main     main      sidebar'
+ 'main    main     main      sidebar'
+ 'footer  footer   footer    footer';
+  gap: 10px;
+  font-family: 'Montserrat'; }
+
+.grid-container > .main {
+  grid-area: main;
+  text-align: center; }
+  .grid-container > .main .articulos {
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: black;
+    grid-template-columns: repeat(3, ifr);
+    margin-top: 30px; }
+  .grid-container > .main .article {
+    flex: 1 1 20%;
+    color: black;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 40px;
+    gap: 20px;
+    grid-template-columns: repeat(3, ifr);
+    margin-top: 10px;
+    text-align: center; }
+  .grid-container > .main .textoPrincipal {
+    padding: 25px;
+    font-size: 50px;
+    font-weight: bold; }
+    .grid-container > .main .textoPrincipal .fotos {
+      padding: 10px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center; }
+
+.parrafo {
+  margin: 0 auto;
+  font-weight: lighter;
+  text-align: center;
+  padding: 30px;
+  font-weight: bolder; }
+
+.descripcion {
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5 40px;
+  font-size: 25px; }
+
+.fotos2 {
+  padding: 3px; }
+
+.titulos {
+  font-size: 40px; }
+  .titulos .tituloTres {
+    font-size: 30px; }
+    .titulos .tituloTres .textoSecundario {
+      margin-top: 30px; }
+
+.form-label,
+.form-control {
+  border-radius: 10px;
+  border-color: #aaf0ff; }
+  .form-label .btn-enviar,
+  .form-label .btn-resetear,
+  .form-control .btn-enviar,
+  .form-control .btn-resetear {
+    border-color: #aaf0ff;
+    background-color: #aaf0ff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; }
+  .form-label .btn-resetear:hover,
+  .form-control .btn-resetear:hover {
+    transition: 0.5s;
+    opacity: 0.5; }
+  .form-label .btn-enviar:hover,
+  .form-control .btn-enviar:hover {
+    transition: 0.5s;
+    opacity: 0.5; }
+
+.grid-container > .sidebar {
+  grid-area: sidebar;
+  background-image: linear-gradient(to bottom, #aaf0ff, #a3e4ff, #a8d6ff, #b6c7fe, #c8b6f0, #d4b5ea, #deb5e4, #e6b6de, #ecc7e7, #f2d7ef, #f8e8f7, #fff8ff);
+  text-align: center;
+  font-size: 23px;
+  justify-content: center; }
+  .titulos .tituloTres .grid-container > .sidebar .textoSecundario, .grid-container > .sidebar .textoSecundario {
+    margin-top: 20px; }
+    .titulos .tituloTres .grid-container > .sidebar .textoSecundario .parrafo, .grid-container > .sidebar .textoSecundario .parrafo {
+      margin: 10 auto;
+      font-weight: lighter;
+      font-size: 40px;
+      max-width: 450px;
+      text-align: center;
+      padding: 20 20px;
+      font-weight: lighter; }
+  .grid-container > .sidebar .fotos3 {
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: center; }
+
+.seccion1 {
+  list-style: none;
+  text-decoration: none;
+  padding-top: 6px;
+  color: black;
+  font-size: 20px;
+  border-color: #aaf0ff;
+  background-color: #aaf0ff;
+  border-radius: 5px;
+  font-size: 23px;
+  cursor: pointer; }
+
+.seccion1:hover {
+  transition: 0.5s;
+  opacity: 0.5; }
+
+.descripcion {
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 50px;
+  font-size: 23px; }
+
+body {
+  font-family: "Montserrat";
+  text-align: center; }
+
+.fotos {
+  padding: 2px;
+  margin-top: 20px; }
+
+.reel {
+  padding: 2px;
+  margin-top: 20px; }
+
+.fondo3 {
+  padding: 2px; }
+
+.textoTerciario, .titulos .tituloTres .textoSecundario .textoTerciario {
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 20px; }
+
+.textoSecundario, .titulos .tituloTres .textoSecundario, .grid-container > .sidebar .textoSecundario {
+  font-size: 45px;
+  font-weight: bolder;
+  padding: 20px;
+  margin-top: 20px; }
+
+.titulos {
+  font-size: 28px;
+  font-weight: bolder; }
+
+.tituloTres, .titulos .tituloTres {
+  font-size: 25px;
+  font-weight: bolder; }
+
+.btn-enviar,
+.btn-resetear {
+  outline: none;
+  border: none; }
+
+@media screen and (max-width: 1024px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: 'header  header   header    header'
+ 'main    main     main      sidebar'
+ 'main    main     main      sidebar'
+ 'footer  footer   footer    footer';
+    gap: 10px; } }
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: 'header'
+ 'main'
+ 'sidebar'
+ 'footer';
+    gap: 5px;
+    padding: auto;
+    margin: auto; }
+  .header {
+    grid-area: header;
+    display: flex;
+    justify-content: center; }
+  .main {
+    grid-area: main;
+    display: flex;
+    justify-content: center; }
+  .sidebar {
+    grid-area: sidebar;
+    flex-direction: column;
+    justify-content: center; }
+  .footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .grid-container {
+    padding-left: auto;
+    padding-top: auto;
+    flex-direction: column-reverse;
+    justify-content: center; }
+  .fondo {
+    max-width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: auto;
+    margin: auto;
+    flex-direction: column-reverse;
+    justify-content: center; }
+  .navbar-brand {
+    width: 80%;
+    max-width: 120px;
+    padding: auto;
+    margin: auto; }
+  /* menu */
+  .nav {
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s; }
+  .articulos {
+    grid-template-columns: repeat(2, ifr); }
+  .article {
+    grid-template-columns: repeat(2, ifr); }
+  .form {
+    display: grid; }
+  .main,
+  .contacto {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0 40px; }
+  .parrafo {
+    font-size: 16px; }
+  .reel {
+    flex-direction: column-reverse;
+    display: flex;
+    margin: 5px auto;
+    justify-content: center; }
+  .fotos {
+    flex-direction: column-reverse;
+    display: flex;
+    margin: 5px auto;
+    justify-content: center; }
+  .btn-enviar, .btn-resetea {
+    flex-direction: column-reverse;
+    display: flex;
+    margin: 5px auto;
+    justify-content: center; }
+  .navbar-light .navbar-toggler {
+    border-radius: 20px;
+    border-color: #a3e4ff;
+    padding: 5px; }
+  .navbar-toggler-icon {
+    border-color: #a3e4ff; }
+  .sidebar {
+    flex-direction: column; }
+  .fotos2 {
+    flex-direction: column-reverse;
+    display: flex;
+    max-width: 300px;
+    margin: 10px auto;
+    justify-content: center; } }
+
+.descripcion {
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 18px; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 0 20px;
+  font-size: 20px; }
+
+.grid-container > .footer {
+  grid-area: footer;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+  .grid-container > .footer .instagram {
+    transition: 0.5s;
+    margin-bottom: auto;
+    padding: 18px 5px;
+    border-radius: 3px;
+    transition: 0.5s; }
+    .grid-container > .footer .instagram:hover {
+      background-color: #aaf0ff; }
+  .grid-container > .footer .facebook {
+    transition: 0.5s;
+    margin-bottom: auto;
+    padding: 18px 5px;
+    border-radius: 3px;
+    transition: 0.5s; }
+    .grid-container > .footer .facebook:hover {
+      background-color: #aaf0ff; }
+  .grid-container > .footer .footerCopyright {
+    font-size: 20px;
+    justify-content: flex-end; }
+
+.fondo3 {
+  padding: 0 128px; }

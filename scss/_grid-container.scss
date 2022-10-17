@@ -1,0 +1,12 @@
+
+    .grid-container{
+        display: grid;
+        grid-template-areas:
+        'header  header   header    header'
+        'main    main     main      sidebar'
+        'main    main     main      sidebar'
+        'footer  footer   footer    footer';
+        gap: 10px;
+        font-family: 'Montserrat';
+    }
+

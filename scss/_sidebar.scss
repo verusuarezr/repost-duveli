@@ -1,0 +1,57 @@
+.grid-container>.sidebar {
+    grid-area: sidebar;
+    background-image: linear-gradient(to bottom, #aaf0ff, #a3e4ff, #a8d6ff, #b6c7fe, #c8b6f0, #d4b5ea, #deb5e4, #e6b6de, #ecc7e7, #f2d7ef, #f8e8f7, #fff8ff);
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+
+
+    .textoSecundario {
+        @extend .textoSecundario;
+        margin-top: 20px;
+
+        .parrafo {
+            margin: 10 auto;
+            font-weight: lighter;
+            font-size: 30px;
+            max-width: 450px;
+            text-align: center;
+            padding: 20 20px;
+            font-weight: lighter;
+        }
+
+    }
+
+    .fotos3 {
+        padding: 10px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+}
+
+.seccion1 {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 6px;
+    color: black;
+    font-size: 18px;
+    border-color: $bgcolor;
+    background-color: $bgcolor;
+    border-radius: 5px;
+    cursor: pointer;
+  
+   
+}
+    .seccion1:hover {
+        transition: 0.5s;
+        opacity: 0.5;
+    }
+    .descripcion {
+        font-weight: 300;
+        margin: 0 auto;
+        text-align: center;
+        padding:0 50px;
+        font-size: 25px;
+      
+    }

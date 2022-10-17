@@ -1,0 +1,8 @@
+.grid-container > .footer {
+  grid-area: footer;
+  text-align: center; }
+  .grid-container > .footer .footerCopyright {
+    font-size: 20px;
+    padding: 10px; }
+
+/*# sourceMappingURL=footer.css.map */

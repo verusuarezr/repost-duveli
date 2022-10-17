@@ -1,0 +1,67 @@
+.grid-container > .main {
+  grid-area: main;
+  text-align: center; }
+  .grid-container > .main .articulos {
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: black;
+    grid-template-columns: repeat(3, ifr);
+    margin-top: 20px; }
+    .grid-container > .main .articulos .article {
+      flex: 1 1 20%;
+      color: black;
+      font-size: 13px;
+      letter-spacing: 2px;
+      padding: 20px;
+      gap: 20px;
+      grid-template-columns: repeat(3, ifr);
+      margin-top: 10px;
+      text-align: center; }
+      .grid-container > .main .articulos .article .titulos {
+        font-size: 20px;
+        font-weight: bolder; }
+        .grid-container > .main .articulos .article .titulos .tituloTres {
+          font-size: 15px;
+          font-weight: bolder; }
+          .grid-container > .main .articulos .article .titulos .tituloTres p {
+            font-size: 12px;
+            font-weight: bolder;
+            color: black;
+            padding: 3px;
+            text-align: center;
+            margin-top: 10px; }
+            .grid-container > .main .articulos .article .titulos .tituloTres p .parrafo {
+              margin: 0 auto;
+              font-weight: lighter;
+              font-size: 20px;
+              max-width: 450px;
+              text-align: center;
+              padding: 10px; }
+              .grid-container > .main .articulos .article .titulos .tituloTres p .parrafo .form {
+                padding: 40px;
+                margin-top: 20px;
+                border-radius: 3px;
+                display: block;
+                justify-content: center; }
+                .grid-container > .main .articulos .article .titulos .tituloTres p .parrafo .form .textoPrincipal {
+                  padding: 25px;
+                  font-size: 50px;
+                  font-weight: bold; }
+                  .grid-container > .main .articulos .article .titulos .tituloTres p .parrafo .form .textoPrincipal .textoTerciario {
+                    font-size: 30;
+                    font-weight: bolder;
+                    padding: 20px; }
+                    .grid-container > .main .articulos .article .titulos .tituloTres p .parrafo .form .textoPrincipal .textoTerciario .textoSecundario {
+                      font-size: 30;
+                      font-weight: bolder;
+                      padding: 20px;
+                      margin-top: 20px; }
+                      .grid-container > .main .articulos .article .titulos .tituloTres p .parrafo .form .textoPrincipal .textoTerciario .textoSecundario .fotos {
+                        padding: 10px;
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: center; }
+
+/*# sourceMappingURL=main.css.map */
