@@ -324,9 +324,9 @@ body {
 
 .descripcion {
   font-weight: 300;
-  margin: 0 auto;
+  margin: 0 14px;
   text-align: center;
-  padding: 0 10px;
+  padding: 8 10px;
   font-size: 18px; }
 
 p {
