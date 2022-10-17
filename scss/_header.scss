@@ -9,11 +9,10 @@
       
 
     .navbar {
-        display: flex;
+        display: block;
         justify-content: space-between;
-        max-width: 992px;
+        max-width: max-content;
         text-transform: uppercase;
-        width: max-content;
 
 
         .nav-menu {
