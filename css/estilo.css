@@ -264,7 +264,6 @@ body {
     flex-direction: column-reverse;
     justify-content: center; }
   .navbar-brand {
-    max-width: 40px;
     padding: auto;
     margin: auto; }
   /* menu */
