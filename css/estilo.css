@@ -98,7 +98,7 @@ li {
   font-size: 25px; }
 
 .fotos2 {
-  padding: 3px; }
+  padding: 3px;}
 
 .titulos {
   font-size: 40px; }
@@ -223,7 +223,7 @@ body {
  'footer  footer   footer    footer';
     gap: 10px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .grid-container {
     display: grid;
     grid-template-areas: 'header'
