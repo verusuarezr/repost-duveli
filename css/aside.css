@@ -1,8 +1,7 @@
 .grid-container > .sidebar {
   grid-area: sidebar;
   background-image: linear-gradient(to bottom, #aaf0ff, #a3e4ff, #a8d6ff, #b6c7fe, #c8b6f0, #d4b5ea, #deb5e4, #e6b6de, #ecc7e7, #f2d7ef, #f8e8f7, #fff8ff);
-  text-align: center;
-  margin: 5px 0; }
+  text-align: center;}
   .grid-container > .sidebar .fotos2 {
     padding: 5 5px;
    margin: 8 14px; }
