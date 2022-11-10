@@ -223,7 +223,7 @@ body {
                          'footer  footer   footer    footer';
     gap: 10px; } }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .grid-container {
     grid-template-areas: 'header'
                          'main'
