@@ -58,6 +58,7 @@
 
     .sidebar {
         grid-area: sidebar;
+        display: block;
         flex-direction: column;
         justify-content: center;
     }

@@ -241,9 +241,8 @@ body {
     justify-content: center; }
   .sidebar {
     grid-area: sidebar;
-    flex-direction: row;
-  display: contents;
-    justify-content: center; }
+   display: block; 
+justify-content: center;}
   .footer {
     grid-area: footer;
     display: flex;
