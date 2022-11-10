@@ -242,7 +242,7 @@ body {
   .sidebar {
     grid-area: sidebar;
     flex-direction: row;
-  display: inline-block;
+  display: contents;
     justify-content: center; }
   .footer {
     grid-area: footer;
