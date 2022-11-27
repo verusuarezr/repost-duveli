@@ -19,7 +19,7 @@
 
 
 
-@media screen and (max-width:$desktop) {
+@media screen and (min-width:$mobilep) {
     .grid-container {
         display: grid;
         grid-template-areas:
@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (max-width: $mobile) {
+@media screen and (max-width: $desktop) {
     .grid-container {
         display: grid;
         grid-template-areas:

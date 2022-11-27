@@ -75,7 +75,7 @@ li {
     text-align: center; }
   .grid-container > .main .textoPrincipal {
     padding: 25px;
-    font-size: 50px;
+    font-size: 43px;
     font-weight: bold; }
     .grid-container > .main .textoPrincipal .fotos {
       padding: 10px;
@@ -214,8 +214,9 @@ body {
 .btn-resetear {
   outline: none;
   border: none; }
-
-@media screen and (max-width: 1200px) {
+  .fondo3 {
+    padding: 0 128px; }
+@media screen and (min-width: 200px) {
   .grid-container {
     grid-template-areas: 'header  header   header    header'
                          'main    main     main      sidebar'
@@ -223,8 +224,9 @@ body {
                          'footer  footer   footer    footer';
     gap: 10px; } }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:1200px) {
   .grid-container {
+  
     grid-template-areas: 'header'
                          'main'
                          'sidebar'
@@ -241,11 +243,10 @@ body {
     justify-content: center; }
   .sidebar {
     grid-area: sidebar;
-   display: block; 
+ 
 justify-content: center;}
   .footer {
     grid-area: footer;
-    display: flex;
     flex-direction: column;
     justify-content: center; }
   .grid-container {
@@ -292,7 +293,7 @@ justify-content: center;}
     font-size: 16px; }
     .textoPrincipal {
       padding: 25px;
-      font-size: 48px;
+      font-size: 38px;
       font-weight: bold;
   }
   .reel {
@@ -325,7 +326,7 @@ justify-content: center;}
     max-width: 300px;
     margin: 10px auto;
     justify-content: center; } }
-
+   
 .descripcion {
   font-weight: 300;
   margin: 0 14px;
@@ -342,7 +343,7 @@ p {
 .grid-container > .footer {
   grid-area: footer;
   display: flex;
-  flex-wrap: wrap;
+ 
   align-items: center; }
   .grid-container > .footer .instagram {
     transition: 0.5s;
@@ -352,6 +353,8 @@ p {
     transition: 0.5s; }
     .grid-container > .footer .instagram:hover {
       background-color: #aaf0ff; }
+      .fondo3 {
+        padding: 0 128px; }
   .grid-container > .footer .facebook {
     transition: 0.5s;
     margin-bottom: auto;
@@ -364,5 +367,4 @@ p {
     font-size: 20px;
     justify-content: flex-end; }
 
-.fondo3 {
-  padding: 0 128px; }
+
