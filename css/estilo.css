@@ -2,7 +2,6 @@ body {
   font-family: 'Montserrat'; }
 
 * {
- 
   overflow-x: hidden;
  
   }
@@ -52,12 +51,13 @@ li {
 
 .grid-container > .main {
   grid-area: main;
-  text-align: center; }
+  text-align: center;
+padding: 40px; }
   .grid-container > .main .articulos {
     font-size: 13px;
     letter-spacing: 1px;
     color: black;
-    grid-template-columns: repeat(3, ifr);
+    grid-template-columns: repeat(4, ifr);
     margin-top: 30px; }
   .grid-container > .main .article {
     flex: 1 1 20%;
@@ -71,7 +71,7 @@ li {
     text-align: center; }
   .grid-container > .main .textoPrincipal {
     padding: 25px;
-    font-size: 33px;
+    font-size: 50px;
     font-weight: bold; }
     .grid-container > .main .textoPrincipal .fotos {
       padding: 10px;
@@ -181,7 +181,7 @@ body {
   margin-top: 20px; }
 
 .reel {
-  padding: 2px;
+  padding: 3px;
   margin-top: 20px; }
 
 .fondo3 {
@@ -212,7 +212,7 @@ body {
   border: none; }
   .fondo3 {
     padding: 0 128px; }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .grid-container {
     grid-template-areas: 'header  header   header'
                          'main    main     sidebar'
@@ -275,9 +275,9 @@ justify-content: center;}
     pointer-events: none;
     transition: opacity 0.3s; }
   .articulos {
-    grid-template-columns: repeat(2, ifr); }
+    grid-template-columns: repeat(3, ifr); }
   .article {
-    grid-template-columns: repeat(2, ifr); }
+    grid-template-columns: repeat(3, ifr); }
   .form {
     display: grid; }
   .main,
@@ -297,7 +297,8 @@ justify-content: center;}
     flex-direction: column-reverse;
     display: flex;
     margin: 5px auto;
-    justify-content: center; }
+    justify-content: center; 
+    padding: 3px;}
   .fotos {
     flex-direction: column-reverse;
     display: flex;
@@ -309,10 +310,10 @@ justify-content: center;}
     margin: 5px auto;
     justify-content: center; }
   .navbar-light .navbar-toggler {
-    border-radius: 20px;
+    border-radius: 18px;
     display: block;
     border-color: #a3e4ff;
-    padding: 5px; }
+    padding: 2px; }
   .navbar-toggler-icon {
     border-color: #a3e4ff; }
   .sidebar {
@@ -328,7 +329,7 @@ justify-content: center;}
   font-weight: 300;
   text-align: center;
   padding: 8 10px;
-  font-size: 25px; }
+  font-size: 22px; }
 
 p {
   margin-top: 0;
