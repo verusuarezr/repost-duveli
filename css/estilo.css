@@ -216,7 +216,7 @@ body {
   border: none; }
   .fondo3 {
     padding: 0 128px; }
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 320px) {
   .grid-container {
     grid-template-areas: 'header  header   header    header'
                          'main    main     main      sidebar'
@@ -224,7 +224,7 @@ body {
                          'footer  footer   footer    footer';
     gap: 10px; } }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1024px) {
   .grid-container {
   
     grid-template-areas: 'header'
