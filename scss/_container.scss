@@ -1,10 +1,10 @@
 .grid-container{
     display: grid;
     grid-template-areas:
-    'header  header   header    header'
-    'main    main     main      sidebar'
-    'main    main     main      sidebar'
-    'footer  footer   footer    footer';
+    'header  header   header'
+    'main    main     sidebar'
+    'main    main     sidebar'
+    'footer  footer   footer';
     gap: 10px;
     padding: 10px;
 }

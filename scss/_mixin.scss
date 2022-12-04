@@ -19,14 +19,14 @@
 
 
 
-@media screen and (min-width:$mobilep) {
+@media screen and (max-width:$mobile) {
     .grid-container {
         display: grid;
         grid-template-areas:
-            'header  header   header    header'
-            'main    main     main      sidebar'
-            'main    main     main      sidebar'
-            'footer  footer   footer    footer';
+            'header  header   header'
+            'main    main     sidebar'
+            'main    main     sidebar'
+            'footer  footer   footer';
         gap: 10px;
     }
 }
@@ -81,7 +81,7 @@
     }
 
     .fondo {
-        max-width: 300px;
+        max-width: 250px;
         padding-top: 20px;
         padding-bottom: 20px;
         padding: auto;
@@ -185,9 +185,9 @@
 }
 .descripcion {
     font-weight: 300;
-    margin: 0 14px;
+    margin: 0 8px;
     text-align: center;
-    padding:8 10px;
+    padding:8 8px;
     font-size: 20px;
   
 }
